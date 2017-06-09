@@ -1,0 +1,17 @@
+.copy-container {
+  letter-spacing: 1px;
+  line-height: 1.4;
+
+  &--heading {
+    color: $primary-color;
+    margin-bottom: 1rem;
+  }
+
+  &--heading__small {
+    font-weight: lighter;
+  }
+  
+  &__border-bottom {
+    border-bottom: 1px solid $divider-color;
+  }
+}

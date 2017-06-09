@@ -1,0 +1,25 @@
+.row {
+  display: flex;
+
+  &__align-end {
+    justify-content: flex-end;
+  }
+
+  &__large-4 {
+    flex: 4;
+  }
+
+  &__large-7 {
+    flex: 6;
+  }
+
+  &__aside-left {
+    width: 360px;
+    padding: 40px 40px 0 0;
+  }
+
+  &__aside-right {
+    width: 600px;
+    padding: 40px 0 0 40px;
+  }
+}

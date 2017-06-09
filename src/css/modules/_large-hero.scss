@@ -1,0 +1,17 @@
+.large-hero {
+  color: $primary-color-text;
+  background-color: $primary-color;
+  text-align: left;
+
+  &__title {
+    font-size: 3rem;
+    font-weight: lighter;
+    margin: 3rem 0 1rem 0;
+  }
+
+  &__subtitle {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin: 0 0 3rem 0;
+  }
+}

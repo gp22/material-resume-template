@@ -1,0 +1,36 @@
+.main-nav {
+  background-color: $primary-color-dark;
+  font-weight: lighter;
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    list-style: none;
+    margin-right: 1.5rem;
+    padding: 1rem 0;
+    border-bottom: 2px solid $primary-color-dark;
+
+  &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      border-bottom: 2px solid $primary-color-text;
+    }
+  }
+
+  li a:link,
+  li a:visited {
+    color: #fff;
+    text-transform: uppercase;
+    transition: border-bottom 0.2s;
+  }
+
+  li a:hover,
+  li a:active {
+    border-bottom: 2px solid $primary-color-text;
+  }
+}

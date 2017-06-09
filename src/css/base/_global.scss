@@ -1,0 +1,19 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: $primary-text-color;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
