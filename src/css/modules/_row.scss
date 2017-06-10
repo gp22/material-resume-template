@@ -1,15 +1,23 @@
 .row {
   display: flex;
 
+  &__space-between {
+    justify-content: space-between;
+  }
+
   &__align-end {
     justify-content: flex-end;
+  }
+
+  &__align-right {
+    align-self: flex-end;
   }
 
   &__large-4 {
     flex: 4;
   }
 
-  &__large-7 {
+  &__large-6 {
     flex: 6;
   }
 

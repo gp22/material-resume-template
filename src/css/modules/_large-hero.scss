@@ -1,7 +1,12 @@
 .large-hero {
   color: $primary-color-text;
   background-color: $primary-color;
-  text-align: left;
+  // text-align: left;
+  letter-spacing: 2px;
+
+  &__text-container {
+
+  }
 
   &__title {
     font-size: 3rem;
@@ -13,5 +18,10 @@
     font-size: 1.5rem;
     font-weight: lighter;
     margin: 0 0 3rem 0;
+  }
+
+  &__image {
+    max-height: 220px;
+    opacity: 0.6;
   }
 }
