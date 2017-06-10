@@ -10,7 +10,7 @@ const extractPlugin = new ExtractTextPlugin({
 module.exports = {
   entry: './src/js/app.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
     filename: 'bundle.js'
   },
   module: {
@@ -29,7 +29,7 @@ module.exports = {
       {
         test: /\.scss$/,
         use: extractPlugin.extract({
-          use: ['css-loader', 'sass-loader']
+          use: ['css-loader', 'postcss-loader', 'sass-loader']
         })
       },
       {
@@ -55,6 +55,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: 'src/index.html'
     }),
-    new CleanWebpackPlugin(['dist'])
+    new CleanWebpackPlugin(['docs'])
   ]
 };
