@@ -14,4 +14,15 @@
   &__border-bottom {
     border-bottom: 1px solid $divider-color;
   }
+
+  &__bottom-margin {
+    &:last-child {
+      margin-bottom: 8rem;
+    }
+  }
+
+  &--signature {
+    margin-top: 1.5rem;
+    max-width: 300px;
+  }
 }
