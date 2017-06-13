@@ -22,12 +22,12 @@
   }
 
   &__aside-left {
-    width: 360px;
+    min-width: 400px;
     padding: 40px 40px 0 0;
   }
 
   &__aside-right {
-    width: 600px;
+    max-width: 600px;
     padding: 40px 0 0 40px;
   }
 }
