@@ -1,6 +1,10 @@
 .row {
   display: flex;
 
+  &__center {
+    justify-content: center;
+  }
+
   &__space-between {
     justify-content: space-between;
   }

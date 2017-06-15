@@ -1,0 +1,15 @@
+.footer {
+  color: $primary-color-text;
+  background-color: $primary-color;
+  letter-spacing: 2px;
+
+  &--contact-box {
+    height: 200px;
+    width: 200px;
+  }
+
+  &__dark {
+    background-color: $primary-color-dark;
+    height: 52px;
+  }
+}
