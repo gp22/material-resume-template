@@ -4,11 +4,20 @@
 
   &--heading {
     color: $primary-color;
-    margin-bottom: 1rem;
+    margin-bottom: .8rem;
+
+    &__black {
+      color: $primary-text-color;
+      font-weight: 400;
+    }
   }
 
-  &--heading__small {
-    // font-weight: 400;
+  &__no-margin-top {
+    margin-top: 0;
+  }
+
+  &__more-margin-bottom {
+    margin-bottom: 1.8rem;
   }
   
   &__border-bottom {
