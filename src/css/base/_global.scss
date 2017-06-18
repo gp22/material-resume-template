@@ -1,5 +1,6 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: $main-font, sans-serif;
+  font-weight: 300;
   color: $primary-text-color;
   font-size: 16px;
 }
@@ -14,5 +15,6 @@ img {
 }
 
 a {
+  color: $primary-color-text;
   text-decoration: none;
 }
