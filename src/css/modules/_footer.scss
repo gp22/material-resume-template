@@ -2,6 +2,8 @@
   color: $primary-color-text;
   background-color: $primary-color;
   letter-spacing: 1px;
+  position: relative;
+  z-index: 100;
 
   &--contact-box {
     flex-direction: column;
